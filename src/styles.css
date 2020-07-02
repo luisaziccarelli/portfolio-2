@@ -9526,7 +9526,23 @@
      display: block;
      max-width: 650px;
      margin: 0 auto;
+     width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
  }
+
+ .thumbnail-img, .img-fluid {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  
+  .thumbnail .img-fluid{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+
  .portfolio-box .portfolio-box-caption {
      position: absolute;
      bottom: 0;
