@@ -178,7 +178,21 @@
  img {
      border-style: none;
  }
- img,
+
+ /* .zoom {
+    
+    transition: transform .2s;
+    /* width: 200px;
+    height: 200px;
+    margin: 0 auto; */
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  } */
+
  svg {
      vertical-align: middle;
  }
@@ -9503,6 +9517,8 @@
          font-size: 1.15rem;
      }
  }
+
+
  @media (min-width: 992px) {
      header.masthead {
          height: 100vh;
@@ -9522,6 +9538,23 @@
  .service-box {
      max-width: 400px;
  }
+
+
+ .zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+
  .portfolio-box {
      position: relative;
      display: block;
